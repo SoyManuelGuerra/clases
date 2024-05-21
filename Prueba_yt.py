@@ -22,7 +22,7 @@ search_video = driver.find_element(By.LINK_TEXT, "Videos").click()
 play_video = driver.find_element(By.PARTIAL_LINK_TEXT, "Slipknot - Psychosocial")
 play_video.click()
 
-#se agrega mas tiempo para poder interactuar con la pantalla del video
-time.sleep(120)
+#se espera
+time.sleep(10)
 
 driver.quit()
