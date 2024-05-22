@@ -21,6 +21,8 @@ search_box.send_keys("Slipknot"+Keys.ENTER)
 search_video = driver.find_element(By.LINK_TEXT, "Videos").click()
 play_video = driver.find_element(By.PARTIAL_LINK_TEXT, "Slipknot - Psychosocial")
 play_video.click()
+time.sleep(5)
+full_screen = driver.find_element(By.CLASS_NAME, "ytp-fullscreen-button").click()
 
 #se espera por mas tiempoo
 time.sleep(120)
